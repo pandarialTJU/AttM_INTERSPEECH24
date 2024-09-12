@@ -84,9 +84,9 @@ def main(args: argparse.Namespace) -> None:
     feat_file = Path(args.feat_file)
 
     # no need to use it, if we have the tsv file path.
-    trn_list_path = (meta_path / f"fold{fold_id}_train.tsv")
-    dev_trial_path = (meta_path / f"fold{fold_id}_validation.tsv")
-    eval_trial_path = (meta_path / f"fold{fold_id}_evaluation.tsv")
+    trn_list_path = (meta_path / f"train.tsv")
+    dev_trial_path = (meta_path / f"validation.tsv")
+    eval_trial_path = (meta_path / f"evaluation.tsv")
 
 
     # define model related paths
