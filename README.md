@@ -66,6 +66,8 @@ python -u main_antispoof.py --config ./antispoof.conf \
   booktitle = {Interspeech 2024},
   pages     = {2090--2094},
   doi       = {10.21437/Interspeech.2024-1472},
+  issn      = {2958-1796},
+}
 }
 ```
 ```bash
